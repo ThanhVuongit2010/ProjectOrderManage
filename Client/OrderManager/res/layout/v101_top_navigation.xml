@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_navigation_basic_height"
+        android:background="@color/white" >
+        
+        <!-- funtion icon  -->
+        <FrameLayout
+            android:id="@+id/v101_fr_function_icon"
+            android:layout_width="@dimen/top_navigation_basic_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+             <vn.app.android.ordermanager.custom.view.DynamicImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:layout_marginLeft="@dimen/margin_12"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginStart="@dimen/margin_12"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/list_writing_menu_icon" />
+
+        </FrameLayout>
+        <!-- search icon  -->
+        <FrameLayout
+            android:id="@+id/v101_fr_search_icon"
+            android:layout_width="@dimen/top_navigation_basic_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" >
+
+            <vn.app.android.ordermanager.custom.view.DynamicImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/margin_12"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_12"
+                android:layout_marginStart="@dimen/margin_16"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/list_writing_search_icon" />
+
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

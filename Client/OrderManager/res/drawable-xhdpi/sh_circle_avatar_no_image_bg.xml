@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/transparent"/>
+    <size android:width="@dimen/user_detail_avartar_size" android:height="@dimen/user_detail_avartar_size"/>
+</shape>

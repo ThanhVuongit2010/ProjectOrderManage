@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Test -->
+    <string name="test_post_facebook">Facebook</string>
+    <string name="test_post_twitter">Twitter</string>
+    <string name="test_post_mail">Mail</string>
+    <string name="test_post_sms">SMS</string>
+    <string name="test_post_provider">Provider</string>
+    <string name="test_bottom_up_dialog">Show Bottom Up Dialog</string>
+    <string name="test_supported_view_switcher">Supported View Switcher</string>
+    <string name="test_post_social_oauth">Social OAuth</string>
+    
+    <!-- Application -->
+    <string name="app_name">Health Nudge</string>
+    <string name="app_logo_name">HEALTH NUDGE</string>
+    <string name="facebook_app_id">1594708790748171</string>
+
+    <!-- Common -->
+    <string name="ok">はい</string>
+    <string name="empty"></string>
+    <string name="date">01/01/2016</string>
+    <string name="number">1</string>
+    <string name="long_text">This is a very long text to test the length of text supported on TextView and its maxLines properties</string>
+    <string name="long_text_padding_start">"          This is a very long text to test the length of text supported on TextView and its maxLines properties"</string>
+    <string name="internet_error_message">インターネットに接続できませんでした。</string>
+
+    <!-- Top Navitagion -->
+    <string name="top_navitagion_list_writing_timeline">タイムライン</string>
+    <string name="top_navitagion_list_writing_timeline_default">ナッジフィード</string>
+    <string name="top_navitagion_list_writing_new_arrival">新着</string>
+    <string name="top_navitagion_follow_specialist">専門家</string>
+    <string name="top_navitagion_follow_category">カテゴリ</string>
+    
+    <!-- Tutorial -->
+    <string name="tutorial_goto_category_button_label">フォローするカテゴリの選択へ</string>
+
+    <!-- Pop Up -->
+    <string name="pop_up_error_title">エラー</string>
+    <string name="pop_up_error_ok_button_label">はい</string>
+    <string name="pop_up_simple_button_label">はい</string>
+    <string name="pop_up_loading_message">荷重&#8230;</string>
+    <string name="pop_up_faq_sent_title">送信しました</string>
+    <string name="pop_up_faq_sent_message">ご意見ありがとうございます。\n今後の改善に役立たせていただきます。</string>
+    <string name="pop_up_login_title">ログインしてください</string>
+    <string name="pop_up_login_message_line">"いいね！やフォローするためには\n会員ユーザーである必要があります"</string>
+    <string name="pop_up_login_login_button_label">ログイン</string>
+    <string name="pop_up_login_register_button_label">新規会員登録</string>
+    <string name="pop_up_login_cancel_button_label">キャンセル</string>
+    <string name="pop_up_comment_confirmation_title">コメント更新</string>
+    <string name="pop_up_comment_confirmation_edit">コメントを削除</string>
+    <string name="pop_up_comment_confirmation_delete">コメントを編集</string>
+    <string name="pop_up_comment_confirmation_cancel">キャンセル</string>
+    <string name="pop_up_comment_content_hint">コメントを入力してください。</string>
+    <string name="pop_up_yes_no_button_yes_label">はい</string>
+    <string name="pop_up_yes_no_button_no_label">いいえ</string>
+
+    <!-- UI from network issue -->
+    <string name="ui_from_network_issue_message_default">リロードをタップ</string>
+
+    <!-- Login Screen -->
+    <string name="login_screen_title">ログイン</string>
+    <string name="login_or_icon_label">or</string>
+    <string name="login_facebook_button_label">facebook IDでログイン</string>
+    <string name="login_email_using_label">Eメールとパスワードでログイン</string>
+    <string name="login_register_new_header">まだ会員登録されていない方はこちら</string>
+    <string name="login_email_hint">メールアドレス</string>
+    <string name="login_password_hint">パスワード</string>
+    <string name="login_forget_password_link_label">パスワードを忘れた方はこちら</string>
+    <string name="login_password_error">パスワードは6文字以上でお願いします</string>
+    
+
+    <!-- Register Screen -->
+    <string name="register_screen_title">ユーザー登録</string>
+    <string name="register_facebook_button_label">facebook IDで登録</string>
+    <string name="register_email_using_label">新規IDで登録</string>
+    <string name="register_login_header">すでにユーザー登録済みの方はこちら</string>
+    <string name="register_policy_text_left">登録したことで利用規約、</string>
+    <string name="register_policy_text_center_link">プライバシーポリシー</string>
+    <string name="register_policy_text_right">に同意したことになります。</string>
+
+    <!-- Category Screen -->
+    <string name="category_screen_title">カテゴリフォロー</string>
+    <string name="category_category_header">気になるキーワードを選択してください。</string>
+    <string name="category_not_select_category">一つ以上フォローするカテゴリを選択してください</string>
+
+    <!-- User Name Screen -->
+    <string name="user_name_screen_title">ユーザーネーム確認</string>
+    <string name="user_name_user_name_header">ユーザーネームを入力してください。</string>
+    <string name="user_name_confirm_header">ユーザーネームは後からいつでも編集可能です。</string>
+    <string name="user_name_user_name_edit_text">ユーザーネーム</string>
+
+    <!-- Forget Password WebView Screen -->
+    <string name="forget_password_screen_title">パスワードを忘れる</string>
+
+    <!-- List Writing Screen -->
+    <string name="list_writing_original_health_picks">HEALTH PICKS</string>
+    
+    <!-- List Ranking Screen -->
+    <string name="list_ranking_out_of_top_3_label">%1$s 位</string>
+	
+    <!-- menu right -->
+     <string name="menu_left_title_all_category">Category</string>
+    
+    <!-- menu left -->
+    <string name="menu_left_title_all_function ">Function</string>
+    
+    <!-- Menu Right Not Login -->
+    <string name="menu_right_not_log_in_login">ログイン</string>
+    <string name="menu_right_not_log_in_register">会員登録</string>
+    <string name="menu_right_not_log_in_notification_setting">通知設定</string>
+    <string name="menu_right_not_log_in_sample_setting">専門家をフォローする</string>
+    <string name="menu_right_not_log_in_new_activities">アプリからのお知らせ</string>
+    <string name="menu_right_not_log_in_help">ヘルスナッジとは？</string>
+    <string name="menu_right_not_log_in_usage_privacy">利用規約</string>
+    <string name="menu_right_not_log_in_policy">プライバシーポリシー</string>
+    <string name="menu_right_not_log_in_contact">お問い合わせ</string>
+    <string name="menu_right_log_out">ログアウト</string>
+    <string name="menu_right_logged_in_my_page">マイページ</string>
+    <string name="menu_right_logged_in_account_setting">アカウント設定</string>
+    <string name="menu_right_logged_in_visible">お知らせ</string>
+    <string name="menu_right_logged_in_exit">ログアウト</string>
+    <string name="menu_left_category">カテゴリ</string>
+    <string name="menu_left_history">検索履歴</string>
+    <string name="menu_left_category_healthy">健康</string>
+    <string name="menu_left_category_beauty_skin_care">美容・スキンケア</string>
+    <string name="menu_left_category_sport">スポーツ</string>
+    <string name="menu_left_category_desease">病気</string>
+    <string name="menu_left_index">ランキング</string>
+    <string name="menu_left_index_ranking">アクセスランキング</string>
+    <string name="menu_left_index_specialist_advision">いいねが多い順の記事ランキング</string>
+    <string name="menu_left_index_like">専門家のいいねランキング</string>
+    
+    <!-- My Page Screen -->
+    <string name="my_page_screen_title">マイページ</string>
+
+    <!-- List User -->
+    <string name="list_user_screen_title">専門家一覧</string>
+
+    <!-- User Detail -->
+    <string name="user_detail_screen_title">ユーザープロフィール</string>
+    <string name="user_expert_detail_screen_title">専門家のプロフィール</string>
+    <string name="user_expert_profile_screen_title">「専門家プロフィル」</string>
+    <string name="user_detail_follower_count_label">%1$sフォロワー</string>
+    <string name="user_detail_responsible_article">担当記事</string>
+    <string name="user_detail_a_lot_likes_article">いいね</string>
+    <string name="user_detail_commented_article">コメント</string>
+
+    <!-- Search Result -->
+    <string name="search_result_more_button">"全員を見る"</string>
+    <string name="search_result_specialist_count">ヒットした専門家／%d人</string>
+    <string name="search_result_articles_count">ヒットした記事／%d件</string>
+
+    <!-- Profile -->
+    <string name="profile_screen_title">My Profile</string>
+
+    <!-- Business Activities -->
+    <string name="business_screen_title">アプリからのお知らせ</string>
+    <string name="business_detail_screen_title">お知らせ</string>
+
+    <!-- About -->
+    <string name="abount_screen_title">ヘルスナッジとは？</string>
+    
+    <!-- Privacy (Use Condition) -->
+    <string name="use_condition_screen_title">ご利用規約</string>
+
+    <!-- Policy -->
+    <string name="policy_screen_title">プライバシーポリシー</string>
+
+    <!-- Frequency Asked Questions -->
+    <string name="faq_screen_title">ご意見・ご要望</string>
+
+    <!-- Account -->
+    <string name="account_screen_title">アカウント設定</string>
+    <string name="account_edit_label">Edit</string>
+    <string name="account_user_name_hint">User Name</string>
+    <string name="account_user_email_hint">Email</string>
+    <string name="account_user_title_hint">Title</string>
+    <string name="account_user_profile_hint">Profile</string>
+    <string name="account_change_password">パスワード変更</string>
+    <string name="account_withdraw">退会する</string>
+    <string name="account_facebook_label">Facebook</string>
+
+    <!-- Change Password (Pass Miss) -->
+    <string name="change_password_screen_title">パスワード変更</string>
+    <string name="change_password_new_password_label">新しいパスワード</string>
+    <string name="change_password_new_password_hint">新しいパスワード</string>
+    <string name="change_password_new_password_confirm_hint">新しいパスワード確認</string>
+
+    <!-- Notification Setting -->
+    <string name="notification_setting_screen_title">通知設定</string>
+    <string name="notification_setting_on_label">ON</string>
+    <string name="notification_setting_off_label">OFF</string>
+    <string name="notification_setting_comment">コメントに対するいいね</string>
+    <string name="notification_setting_follow">フォローされた通知</string>
+    <string name="notification_setting_news_activity">運用からのお知らせ</string>
+    <string name="notification_setting_recomment">オススメ記事の配信</string>
+    <string name="notification_setting_follower">フォローしている\n専門家の記事の公開</string>
+    <string name="notification_setting_article_like">記事に対するいいね</string>
+    <string name="notification_setting_article_comment">記事に対するコメント</string>
+    
+    <string name="notification_setting_note">オススメ配信をONにするとあなたにオススメの記事が掲載された時に通知されます。通知設定をオフにするとオススメ配信も通知されません。</string>
+
+    <!-- Follow Setting -->
+    <string name="follow_setting_select_category_label">気になるキーワードを選択してください。</string>
+
+    <!-- Withdraw Setting -->
+    <string name="withdraw_screen_title">退会する</string>
+    <string name="withdraw_check_list_label">退会前にご確認ください </string>
+    <string name="withdraw_check_list_item_1">Health Nudgeを退会すると、自分のプロフィール、記事に対するいいねやコメント、フォローしている情報などの内容が全て消去されます。</string>
+    <string name="withdraw_check_list_item_2">それでもよい場合のみ、「退会する」ボタンを押してください。</string>
+
+    <!-- User Notification -->
+    <string name="user_notification_screen_title">お知らせ一覧</string>
+    <string name="user_notification_time">%d分前</string>
+    <string name="user_notification_message">%1$sさんにフォローされました。</string>
+    
+    <!-- Contact -->
+    <string name="contact_header_message">以下にお問い合わせ内容を記載ください。</string>
+    <string name="contact_content_hint">この大きさの文字で表示されれば良いと思います。</string>
+    <string name="contact_footer_message">※ ご返信できない場合がございますので、あらかじめご了承くださいますようお願い致します。</string>
+    
+    <!-- Article Detail Screen -->
+    <string name="article_detail_like_button_label">いいね</string>
+    <string name="article_detail_comment_button_label">コメント</string>
+    
+    
+
+</resources>

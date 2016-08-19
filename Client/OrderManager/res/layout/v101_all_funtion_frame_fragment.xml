@@ -1,0 +1,33 @@
+<vn.app.android.ordermanager.custom.view.SupportedDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v101_all_funtion_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Content Container -->
+    <include
+        layout="@layout/v101_detail_funtion_fragment"
+        android:clickable="false" />
+   
+    <!-- Left Menu Layout -->
+
+    <FrameLayout
+        android:id="@+id/v101_fr_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" >
+
+        <include layout="@layout/v101_left_menu" />
+    </FrameLayout>
+
+    <!-- Right Menu Layout -->
+
+    <FrameLayout
+        android:id="@+id/v101_fr_right_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end" >
+
+        <include layout="@layout/v101_menu_right" />
+    </FrameLayout>
+
+</vn.app.android.ordermanager.custom.view.SupportedDrawerLayout>
