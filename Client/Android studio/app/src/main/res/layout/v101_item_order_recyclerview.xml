@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/h90"
+    android:layout_height="@dimen/h120"
+    android:layout_margin="@dimen/h20"
+    android:orientation="vertical"
+    android:id="@+id/v101_item_order_ln_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_table"
+        android:id="@+id/v101_item_order_img_table" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/stype_backgroud_dset02px">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bàn 290"
+            android:id="@+id/v101_item_order_txt_table_name" />
+    </LinearLayout>
+
+</LinearLayout>

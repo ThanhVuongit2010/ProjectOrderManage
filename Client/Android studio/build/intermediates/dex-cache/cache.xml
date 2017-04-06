@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_3a345d6e14fa3f1fdec21a18ca4b1ba1ffddc07b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_d8407cc956ee51eeeb9af498a36f7f46592bca18\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ASUS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_b8c2475d9c5aced796f167fdc740cd9ec3360def\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_f55071f11d424fdadf37635eba0b255acb8d727b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7b2d0e4f990ca37b45ad5e7be241c2a6271853ed\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_01acde6a3c6aaa4dffed27661f6cc47a7e926c97\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\libs\org.apache.httpcomponents.httpclient_4.3.3.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="20ce371aea4bf9494c81ec88f2123fbcb3f2e25a">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.httpcomponents.httpclient_4.3.3_18985999201e9629c8b334486ee6e3cd37528416\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_80fa6d887b4f3553f0065eb3d4954bcd3b21e577\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_86e9965770e9f3a6e11ad3491d7e46bd36f538cc\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_28b2d4e654fb1e73e1cb3b501fc630b9c26cc176\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_fc8fd1860e1d36c954cf5e8fd115543b444623b6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_89ad9b9b6a39fbca96ffbb15d6519dcc0813652a\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="495d2ddd080ca9b252dda9cc932d7edc9374586f">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9e94b4ae6f607a2002ffa0c8f159f0b2868af0b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ASUS\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_7fadd95998b3cae89333aa16250a436b0024f460\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_b04be9c4f715f1bda1ef94bf58e624a5f3482b6d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_9398e90425a27fdee2cb79f519167e1d70e45a21\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a36138b2988473be3720d5693e966c518717807b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="8f7db224eb554f58f2cf496e8c2791e1152a26ba">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a87ef7cc835fd313d7763dd840e5e98eb427dcd3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_9638363aa41653f415bbf4119aa10cc3f6261be0\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_9e8a16aa16df05a836eb0a5198fddc7685d351cc\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_52b055a87dbe4d1e3f891f523af62934711600f9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_019fef58e8dbc0732ae319da1338027127d0486f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_8cf2dc00e42f62fbef2e3d5f93f0d84f2ac318ac\classes.dex" />
+    </item>
+    <item
+        jar="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="D:\Project 2016\Project OrderManager\ProjectOrderManage\Client\Android studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_dc54d93fe9fc89b645bbd06b7f847b53c989a491\classes.dex" />
+    </item>
+
+</items>

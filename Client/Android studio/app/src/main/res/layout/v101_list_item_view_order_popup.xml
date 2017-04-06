@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/h40"
+            android:background="@drawable/styles_box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/v101_list_item_view_order_popup_table_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/h10"
+                android:layout_weight="0"
+                android:text="Bàn 290"
+                android:textSize="@dimen/text_size_20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/h2"
+                android:layout_weight="0"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h10"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Sản phẩm"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_product_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/h5"
+                    android:layout_marginRight="@dimen/h5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Số lượng"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_product_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/h5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Đơn giá"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_total_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="@dimen/h5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Thành tiền"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/v101_list_item_view_order_popup_list_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/h2"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h10"
+                android:layout_weight="0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_title_tatal_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Tổng tiền :"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_24sp"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/v101_list_item_view_order_total_money_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/h5"
+                    android:layout_marginRight="@dimen/h5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="123.0000"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_24sp"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--button close dialog-->
+        <ImageView
+            android:id="@+id/v101_list_item_view_order_popup_img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/h30"
+            android:src="@drawable/v101_order_choose_close" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><!---->
+
+    <!--common-->
+    <string name="internet_error_message">cannot connect internet</string>
+    <!--popup-->
+    <string name="pop_up_error_title">Error</string>
+    <string name="pop_up_error_ok_button_label">OK</string>
+    <string name="pop_up_loading_message">Loading</string>
+    <string name="pop_up_error_internet_title">Error Internet</string>
+    <string name="pop_up_error_internet_message">Can not connect internet.\nPlease check internet again </string>
+    <string name="pop_up_error_input_title">Error Input</string>
+    <string name="pop_up_error_input_compcode_message">Please input company code</string>
+    <string name="pop_up_error_input_username_message">Please input user name</string>
+    <string name="pop_up_error_input_pass_message">Please input password</string>
+    <string name="pop_up_error_login_title">Error Login</string>
+    <string name="pop_up_error_login_message">Can not login.\nPlease check account and password</string>
+    <!--menu-->
+    <string name="menu_left_title_all_function">Function</string>
+    <string name="menu_left_title_all_category">Category</string>
+    <string name="empty"></string>
+    <string name="app_name"> Order Manager</string>
+
+    <!--Screen Register-->
+    <string name="txt_title"> Register Account</string>
+    <string name="hint_compCode"> Input Company Code</string>
+    <string name="hint_compName"> Input Company Name</string>
+    <string name="hint_Email"> Input Email</string>
+    <string name="hint_Phone"> Input Phone</string>
+    <string name="hint_Addres"> Input City</string>
+    <string name="hint_UserName"> Input User name</string>
+    <string name="hint_PassWord"> Input PassWord</string>
+    <string name="hint_repeat_password"> repeat password</string>
+    <string name="btn_Register"> Register</string>
+    <!-- Screen Login-->
+    <string name="login_txt_title"> Login Your Account</string>
+    <string name="login_hint_username"> Input Account</string>
+    <string name="login_hint_password"> Input PassWord</string>
+    <string name="login_txt_forget_pass"> <i>Forget password</i></string>
+    <string name="login_btn_login"> Login</string>
+    <string name="login_chk_save_pass"> Save password </string>
+
+</resources>

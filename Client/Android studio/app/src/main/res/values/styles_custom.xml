@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogBottomUpAnimation">
+        <item name="android:windowEnterAnimation">@anim/fragment_enter_bottom_up</item>
+        <item name="android:windowExitAnimation">@anim/fragment_exit_top_down</item>
+    </style>
+     <style name="DialogDisappearAnimation">
+        <item name="android:windowEnterAnimation">@anim/fragment_enter_immediately</item>
+        <item name="android:windowExitAnimation">@anim/fragment_exit_immediately</item>
+    </style>
+</resources>

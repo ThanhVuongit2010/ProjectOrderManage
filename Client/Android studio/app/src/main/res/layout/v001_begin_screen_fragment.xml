@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <vn.app.android.ordermanager.custom.view.DynamicImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_icon_order" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h80"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/v001_begin_screen_ln_singup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/h10"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_blue"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Singup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/v001_begin_screen_ln_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/h10"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_blue"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

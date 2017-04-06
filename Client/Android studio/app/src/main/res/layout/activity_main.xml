@@ -1,0 +1,32 @@
+<vn.app.android.ordermanager.custom.view.SupportedDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dlMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Fragment Container -->
+
+    <FrameLayout
+        android:id="@+id/flFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <!-- Left Layout -->
+
+    <FrameLayout
+        android:id="@+id/flLeftMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" >
+    </FrameLayout>
+
+    <!-- Right Layout -->
+
+    <FrameLayout
+        android:id="@+id/flRightMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end" >
+    </FrameLayout>
+
+</vn.app.android.ordermanager.custom.view.SupportedDrawerLayout>

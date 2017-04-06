@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/background_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPopUpErrorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_marginLeft="@dimen/margin_4"
+        android:layout_marginRight="@dimen/margin_4"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_marginTop="@dimen/margin_16"
+        android:minLines="1"
+        android:text="@string/pop_up_error_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPopUpErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_marginLeft="@dimen/margin_4"
+        android:layout_marginRight="@dimen/margin_4"
+        android:layout_marginStart="@dimen/margin_4"
+        android:layout_marginTop="@dimen/margin_4"
+        android:text="@string/empty"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/pop_up_error_divider"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/tvPopUpErrorOkButton"
+        android:layout_width="@dimen/margin_45"
+        android:layout_height="@dimen/margin_45"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:layout_marginLeft="@dimen/margin_4"
+        android:layout_marginRight="@dimen/margin_4"
+        android:layout_marginStart="@dimen/margin_4"
+        android:gravity="center"
+        android:text="@string/pop_up_error_ok_button_label"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

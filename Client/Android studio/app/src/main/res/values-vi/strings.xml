@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--common-->
+    <string name="internet_error_message">Không thể kết nối mạng internet</string>
+    <!--popup-->
+    <string name="pop_up_error_title"> Lỗi</string>
+    <string name="pop_up_error_ok_button_label">OK</string>
+    <string name="pop_up_loading_message">Đang tải</string>
+    <string name="pop_up_error_internet_title"> Lỗi internet</string>
+    <string name="pop_up_error_internet_message">Không kết nối internet.\nVui lòng kiểm tra kết nối internet </string>
+    <string name="pop_up_error_input_title">Lỗi nhập</string>
+    <string name="pop_up_error_input_compcode_message">Vui lòng nhập mã công ty</string>
+    <string name="pop_up_error_input_username_message">Vui lòng nhập tài khoản đăng nhập</string>
+    <string name="pop_up_error_input_pass_message">Vui lòng nhập mật khẩu</string>
+    <!--menu-->
+    <string name="menu_left_title_all_function">Chức năng</string>
+    <string name="menu_left_title_all_category">Danh mục sản phẩm</string>
+    <!--Screen Register-->
+    <string name="txt_title"> Đăng ký tài khoản</string>
+    <string name="hint_compCode"> Nhập mã công ty</string>
+    <string name="hint_compName"> Nhập tên công ty</string>
+    <string name="hint_Email"> Nhập email</string>
+    <string name="hint_Phone"> Nhập số điện thoại</string>
+    <string name="hint_Addres"> Nhập thành phố</string>
+    <string name="hint_UserName"> Nhập tên đăng nhập</string>
+    <string name="hint_PassWord"> Nhập mật khẩu</string>
+    <string name="hint_repeat_password"> Nhập lại mật khâu</string>
+    <string name="btn_Register"> Đăng ký</string>
+
+    <!-- Screen Login-->
+    <string name="login_txt_title"> Đăng Nhập Tài Khoản </string>
+    <string name="login_hint_username"> Nhập tài khoản </string>
+    <string name="login_hint_password"> Nhập mật khẩu </string>
+    <string name="login_txt_forget_pass"> Quên mật khẩu </string>
+    <string name="login_btn_login"> Đăng Nhập </string>
+    <string name="login_chk_save_pass"> Lưu mật khẩu </string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Indicator Layout -->
+    <declare-styleable name="customIndicatorLayout">
+        <attr name="indicatorCount" format="integer|reference" />
+        <attr name="selected" format="reference|integer" />
+        <attr name="unselected" format="reference|integer" />
+        <attr name="selectedIndex" format="reference|integer" />
+        <attr name="indicatorWidth" format="reference|float" />
+        <attr name="indicatorHeight" format="reference|float" />
+        <attr name="indicatorMargin" format="reference|float" />
+        <attr name="marginTop" format="reference|float" />
+        <attr name="marginBottom" format="reference|float" />
+        <attr name="useDynamicImageView" format="reference|boolean" />
+    </declare-styleable>
+
+    <!-- Circle Image View -->
+    <declare-styleable name="customCircleImageView">
+        <attr name="circleImageBorderWidth" format="dimension|reference" />
+        <attr name="circleImageBorderColor" format="color|reference" />
+    </declare-styleable>
+
+    <!-- Rounded Image View -->
+    <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+  </declare-styleable>
+</resources>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v101_item_order_ln_main"
+    android:layout_width="@dimen/h90"
+    android:layout_height="@dimen/h150"
+    android:layout_margin="@dimen/h20"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/v101_item_product_img_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/v101_table_order" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stype_backgroud_dset02px"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/v101_item_product_txt_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="caffe" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/v101_item_product_txt_product_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Giá:" />
+
+                <TextView
+                    android:id="@+id/v101_item_product_txt_product_money_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12000" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/v101_item_product_img_check_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/article_detail_like_on" />
+
+</RelativeLayout>
