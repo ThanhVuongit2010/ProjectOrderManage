@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OrderManager" Class="OrderManagerModelsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-6BNMFR7\SQLEXPRESS;Initial Catalog=OrderManager;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="OrderManagerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.OD_BRANCH" Member="OD_BRANCHes">
+    <Type Name="OD_BRANCH">
+      <Column Name="Branch_Code" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Branch_Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Comp_code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_CATEGORY" Member="OD_CATEGORies">
+    <Type Name="OD_CATEGORY">
+      <Column Name="Category_Code" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Category_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Category_Name_EN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Branch_code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_COMPANY" Member="OD_COMPANies">
+    <Type Name="OD_COMPANY">
+      <Column Name="Comp_Code" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Comp_Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Group_Comp_code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_COMPANY_GROUP" Member="OD_COMPANY_GROUPs">
+    <Type Name="OD_COMPANY_GROUP">
+      <Column Name="Group_Comp_code" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GRoup_Comp_Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_ORDER" Member="OD_ORDERs">
+    <Type Name="OD_ORDER">
+      <Column Name="Order_Code" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Order_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Order_Name_EN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Branch_Code" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Sector" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Max_Time" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_PRODUCT" Member="OD_PRODUCTs">
+    <Type Name="OD_PRODUCT">
+      <Column Name="Product_Code" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Product_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Product_Name_EN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Branch_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Category_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Typical" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Promotions" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Promotions_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Promotions_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Inventory_Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Order_Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_ROLE" Member="OD_ROLEs">
+    <Type Name="OD_ROLE">
+      <Column Name="Role_Code" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Role_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Role_Name_EN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OR_FUNCTION" Member="OR_FUNCTIONs">
+    <Type Name="OR_FUNCTION">
+      <Column Name="Function_Code" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Function_Name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Function_Name_EN" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Branch_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Role_Code" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OD_USER" Member="OD_USERs">
+    <Type Name="OD_USER">
+      <Column Name="UserName" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Comp_Code" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Device_Token" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Branch_Code" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Role_Code" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Sector" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Last_Login" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Apply_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
